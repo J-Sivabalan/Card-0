@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=Rubik+Bubbles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(175, 204, 230);
+}
+.card{ 
+    border-radius: 50px;
+    box-shadow: 8px 8px 22px black;
+    margin-left:41%;
+    margin-top: 10%;
+    height: 400px;
+    width: 280px;
+    background-color:white;
+    
+}
+.card h3{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: xx-large;
+}
+.card img{
+    margin-left: 22px;
+}
+.card h4{
+    text-align: center;
+    color: rgb(207, 29, 29);
+    margin-top: 10px;
+    font-weight: bolder;
+   font-family:'Moon Dance';
+    font-size: larger;
+}
+.card p{
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Lucida Sans Unicode';
+}
+.card p i{
+    color: yellow;
+}
+button{
+    padding: 5px 15px;
+    font-size:1rem;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-color: antiquewhite;
+    color:rgb(20, 10, 10);
+    font-family: 'Gill Sans MT';
+    box-shadow: 5px 3px 8px rgb(24, 6, 6);
+}
+#buy{
+    background-color: rgb(85, 230, 85);
+}
+#addcart{
+    background-color: rgb(215, 250, 59);
+}
